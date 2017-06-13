@@ -1,0 +1,45 @@
+@import 'base.less';
+@import 'fonts.less';
+@import 'adapter.less';
+
+.layout{
+  .nav_tip{
+    > img{
+       width: 100%;
+       display: block;
+     }
+  }
+  .items{
+    .item{
+      padding:28/32rem 24/32rem 0;
+      .title{
+        font-size: 28/32rem;
+        overflow: hidden;
+        .left{
+          float: left;
+        }
+        .right{
+          float: right;
+          color: #888;
+        }
+      }
+      .content{
+        height: 218/32rem;
+        border: 3/32rem dashed #dedede;
+        margin-top:32/32rem;
+        text-align: center;
+        padding-top:36/32rem;
+        box-sizing: border-box;
+        a{
+          color: #aeaeae;
+          font-size: 104/32rem;
+          span{
+            display: block;
+            margin-top:16/32rem;
+            font-size: 26/32rem;
+          }
+        }
+      }
+    }
+  }
+}
